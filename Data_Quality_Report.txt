@@ -1,0 +1,58 @@
+DATA QUALITY REPORT
+==================================================
+
+Shape: (178, 14)
+Columns: ['Alcohol', 'Malicacid', 'Ash', 'Alcalinity_of_ash', 'Magnesium', 'Total_phenols', 'Flavanoids', 'Nonflavanoid_phenols', 'Proanthocyanins', 'Color_intensity', 'Hue', '0D280_0D315_of_diluted_wines', 'Proline', 'class']
+
+Null Values:
+Alcohol                         0
+Malicacid                       0
+Ash                             0
+Alcalinity_of_ash               0
+Magnesium                       0
+Total_phenols                   0
+Flavanoids                      0
+Nonflavanoid_phenols            0
+Proanthocyanins                 0
+Color_intensity                 0
+Hue                             0
+0D280_0D315_of_diluted_wines    0
+Proline                         0
+class                           0
+dtype: int64
+
+Duplicate Rows: 0
+
+Outliers (per column):
+  Alcohol: 1
+  Malicacid: 6
+  Ash: 7
+  Alcalinity_of_ash: 8
+  Magnesium: 6
+  Total_phenols: 2
+  Flavanoids: 1
+  Nonflavanoid_phenols: 5
+  Proanthocyanins: 8
+  Color_intensity: 9
+  Hue: 1
+  0D280_0D315_of_diluted_wines: 0
+  Proline: 5
+  class: 0
+
+IQR (Interquartile Range):
+Alcohol                         0.0
+Malicacid                       0.0
+Ash                             0.0
+Alcalinity_of_ash               0.0
+Magnesium                       0.0
+Total_phenols                   0.0
+Flavanoids                      0.0
+Nonflavanoid_phenols            0.0
+Proanthocyanins                 0.0
+Color_intensity                 0.0
+Hue                             0.0
+0D280_0D315_of_diluted_wines    0.0
+Proline                         0.0
+class                           0.0
+Name: 75%, dtype: float64
+Completed
